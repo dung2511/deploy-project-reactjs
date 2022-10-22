@@ -8,6 +8,7 @@ import Details from './pages/Details';
 import Stream from './pages/Streams';
 import Profile from './pages/Profile';
 import Product from './pages/product';
+import Mounted from './pages/mount/mount';
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +21,7 @@ function App() {
         <Route path='details' element = {<Details/>}/>
         <Route path='streams' element = {<Stream/>}/>
         <Route path='profile' element = {<Profile/>}/>
+        <Route path='mounted' element = {<Mounted/>}/>
         <Route path='#' element = {<Nopage/>}/>
 
       </Route>

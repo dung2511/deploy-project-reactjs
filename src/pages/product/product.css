@@ -1,0 +1,10 @@
+.category-filter ul li span {
+    color:white;
+}
+.category-filter ul {
+    display: flex;
+}
+.category-filter li {
+    margin: 15px; 
+    cursor: pointer;
+}
